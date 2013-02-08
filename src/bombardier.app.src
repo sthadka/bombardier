@@ -1,0 +1,12 @@
+{application, bombardier,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { bombardier_app, []}},
+  {env, []}
+ ]}.
